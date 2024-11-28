@@ -18,4 +18,4 @@
 - 
 ## 模擬環境
   透過**QEMU**模擬實際燒錄時的情況,並可透過**GDB**進行debug,以下是模擬時的命令:
-    qemu-system-aarch64 -M raspi3b -kernel kernel8.img -serial null -serial stdio -display none -dtb bcm2710-rpi-3-b-plus.dtb -initrd initramfs.cpio
+  - qemu-system-aarch64 -M raspi3b -kernel kernel8.img -serial null -serial stdio -display none -dtb bcm2710-rpi-3-b-plus.dtb -initrd initramfs.cpio
