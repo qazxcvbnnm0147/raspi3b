@@ -15,7 +15,23 @@
 - **Linux 內核**：基於 **Linux** 內核進行自訂與配置。
 - **C/C++**：用於編寫內核模組與驅動程式的編程語言。
 - **Makefile**：用於管理專案的編譯過程。
-- 
+  
 ## 模擬環境
   透過**QEMU**模擬實際燒錄時的情況,並可透過**GDB**進行debug,以下是模擬時的命令:
   - qemu-system-aarch64 -M raspi3b -kernel kernel8.img -serial null -serial stdio -display none -dtb bcm2710-rpi-3-b-plus.dtb -initrd initramfs.cpio
+
+## Demo 展示
+
+### 系統啟動畫面
+以下是這個專案在 **Raspberry Pi 3B** 上運行時的啟動畫面，顯示了 **自訂的啟動過程** 和系統的成功啟動：
+
+![系統啟動畫面](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/bootup.png)
+
+### 驅動測試
+專案包含了對 **FILE SYSTEM, reboot, ** 等硬體接口的驅動支援。以下是測試 **GPIO** 控制外部 LED 的結果展示：
+
+![GPIO 測試](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/gpio_test.png)
+
+## 授權
+
+本專案遵循 [MIT 授權](https://opensource.org/licenses/MIT)。
