@@ -28,10 +28,9 @@
 ![系統啟動畫面](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/bootup.png)
 
 ### 驅動測試
-專案包含了對 **FILE SYSTEM, reboot, ** 等硬體接口的驅動支援。以下是測試 **GPIO** 控制外部 LED 的結果展示：
+專案包含了對 **File System, Reboot, Mail Box** 等硬體接口的驅動支援。以下是結果展示：
 
 ![GPIO 測試](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/gpio_test.png)
 
-## 授權
 
-本專案遵循 [MIT 授權](https://opensource.org/licenses/MIT)。
+
