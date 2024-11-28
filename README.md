@@ -22,6 +22,10 @@
 
 ## Demo 展示
 
+### 硬體設備
+
+![硬體設備](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/device.png)
+
 ### 系統啟動畫面
 以下是這個專案在 **Raspberry Pi 3B** 上運行時的啟動畫面，顯示了 **自訂的啟動過程** 和系統的成功啟動：
 
