@@ -25,12 +25,14 @@
 ### 系統啟動畫面
 以下是這個專案在 **Raspberry Pi 3B** 上運行時的啟動畫面，顯示了 **自訂的啟動過程** 和系統的成功啟動：
 
-![系統啟動畫面](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/bootup.png)
+![系統啟動畫面](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/shell.png)
 
 ### 驅動測試
 專案包含了對 **File System, Reboot, Mail Box** 等硬體接口的驅動支援。以下是結果展示：
 
-![GPIO 測試](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/gpio_test.png)
+![filesystem 測試](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/filesystem.png)
+
+![reboot 測試](https://github.com/qazxcvbnnm0147/raspi3b/raw/main/assets/reboot.png)
 
 
 
